@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel = "stylesheet"   
+         href = "https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"  
+         integrity = "sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"   
+         crossorigin = "anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="/style.css">
+    
+</head>
+<body>
+    <form action="">
+    <div class="new">
+      <img src="/imgereg.jpg">
+       <img src="/imgereg.jpg">
+    <u><div class="io"> <h1>Registration Form</h1></div></u>
+    <hr>
+    
+    <label> First Name: </label>   
+    <input type="text" name="firstname" placeholder="First name" size="15" required >
+    <label >Last Name</label>
+    <input type="text" placeholder="First Name"name="fn" id="fn" required>
+   
+    <div><label>Gender   </label><select>
+    <option value="Male" name="gender" >Male</option>
+    <option value="Female" name="gender" >Female</option>
+    <option value="Other" name="gender" >Other</option></select></div>
+    <div><br>
+    <label>Phone no: +91 </label>
+    <input type="text" name="phone" placeholder="XXXXXXXXXX" maxlength="10" required/>
+    </div>
+    <div><label>Marital Status   </label>
+      <input type="radio" id="mar1" name="married" value="married"><label for="mar1">Married</label>
+       <input type="radio" id="mar2" name="married" value="Unmarried"><label for="mar2">Single</label>
+       <input type="radio" id="mar3" name="married" value="married"><label for="mar3">Divorced</label>
+       <input type="radio" id="mar4" name="married" value="married"><label for="mar4">Widowed</label>
+    </div>
+    <label>GMail</label> 
+        <input type="text" class="form1" placeholder="abcxyz@gmail.com">   
+    <label for="psd"><br>Password <br></label>
+    <input type="password" placeholder= "Your password is secure here" name="psd" id="psd" required>
+     
+     <label> 
+        <div class="form1">
+        <input type="checkbox"required>  
+        I hereby agree to the <a href="https://www.lawinsider.com/clause/terms-and-conditions-of-registration"> Terms and Conditions. </a> </div>  
+      </label>  <button class="btn"><input type="reset"value="Clear Form" onclick="clearFunc()"> </button>
+     <button class="button"  type="submit" >Register</button><div>
+   </div>  <hr>
+</form>
+
+</div>
+<script src="/design.js"></script>
+</body>
+</html>
